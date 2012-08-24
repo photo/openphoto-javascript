@@ -38,7 +38,7 @@ Second, write a function that does something with the API response.
 Third, call any [API endpoint](http://theopenphotoproject.org/documentation) and pass the callback function we defined above.
 
     <script>
-      OpenPhoto.Api.load('/photos/tags-favorites/list.json?pageSize=45&returnSizes=40x40xCR,800x600', render);
+      OpenPhoto.Api.load('/photos/tags-favorites/list.json?pageSize=45&returnSizes=100x100xCR', render);
     </script>
 
 This is a pure JavaScript example which doesn't rely on any third party libraries.
