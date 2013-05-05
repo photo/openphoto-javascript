@@ -7,7 +7,7 @@
 
 ### Examples
 
-First, include the `OpenPhoto.js` script.
+First, include the `OpenPhoto.js` script and add a `data-site` attribute.
 
     <script src="OpenPhoto.js" data-site="http://your-site.com"></script>
 
