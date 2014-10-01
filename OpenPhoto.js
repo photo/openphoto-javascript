@@ -18,7 +18,7 @@
     for(var i=0; i<scripts.length; i++) {
       script = scripts[i];
       if(script.src !== "undefined" && script.src.indexOf('OpenPhoto.js') !== -1) {
-        return script.getAttribute("data-site") || log("No data-host attribute on the script tag");
+        return script.getAttribute("data-site") || log("No data-site attribute on the script tag");
       }
     }
   })();
